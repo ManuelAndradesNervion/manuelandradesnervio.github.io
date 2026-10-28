@@ -8,32 +8,37 @@
 
 <body>
     <table border="1">
-        <tr>
-            <th>Lunes</th>
-            <td>Mates</td>
-            <td Rowspan="3">Física</td>
-        </tr>
-        <tr>
-            <th>Martes</th>
-            <td Rowspan="2" colspan="3">Dibujo</td>
-            <td>Lengua</td>
-            <td>EF</td>
-        </tr>
-        <tr>
-            <th>Miércoles</th>
-            <td>Inglés</td>
-            <td>Fútbol</td>
-        </tr>
-        <tr>
-            <th>Jueves</th>
-            <td>France´s</td>
-            <td>Tenis</td>
-        </tr>
-        <tr>
-            <th>Viernes</th>
-            <td Rowspan="3">Historia</td>
-            <td>Mates</td>
-        </tr>
+        <thead>
+            <tr>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mates</td>
+                <td rowspan="2" colspan="3">Dibujo</td>
+                <td rowspan="3"></td>
+            </tr>
+            <tr>
+                <td rowspan="3">Física</td>
+            </tr>
+            <tr>
+                <td>Lengua</td>
+                <td>Inglés</td>
+                <td>Francés</td>
+            </tr>
+            <tr>
+                <td>EF</td>
+                <td>Fútbol</td>
+                <td>Tenis</td>
+                <td>Mates</td>
+            </tr>
+        </tbody>
     </table>
 </body>
+
 </html>
